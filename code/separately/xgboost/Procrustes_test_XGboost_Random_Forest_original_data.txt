@@ -1,0 +1,34 @@
+#Pairwise comparison of distance matrices for XGboost and original metadata
+Call:
+protest(X = XGboost.dist, Y = Original.dist, scores = "sites",      permutations = how(nperm = 999)) 
+
+Procrustes Sum of Squares (m12 squared):        0.4077 
+Correlation in a symmetric Procrustes rotation: 0.7696 
+Significance:  0.001 
+
+Permutation: free
+Number of permutations: 999
+
+#Pairwise comparison of distance matrices for Random Forest and original metadata
+Call:
+protest(X = RF.dist, Y = Original.dist, scores = "sites", permutations = how(nperm = 999)) 
+
+Procrustes Sum of Squares (m12 squared):        0.2962 
+Correlation in a symmetric Procrustes rotation: 0.8389 
+Significance:  0.001 
+
+Permutation: free
+Number of permutations: 999
+
+#Pairwise comparison of distance matrices for XGboost and Random Forest
+Call:
+protest(X = XGboost.dist, Y = RF.dist, scores = "sites", permutations = how(nperm = 999)) 
+
+Procrustes Sum of Squares (m12 squared):        0.5665 
+Correlation in a symmetric Procrustes rotation: 0.6584 
+Significance:  0.001 
+
+Permutation: free
+Number of permutations: 999
+
+
