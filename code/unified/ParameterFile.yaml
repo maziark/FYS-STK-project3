@@ -2,7 +2,7 @@
 # Parameter File
 #======================================================================================================================#
 # Feed Forward NN, Siamese NN, Triplet NN, XGBoost, Random Forest
-# ['ffnn_keras', 'snn_keras', 'tnn_keras', 'xgb', 'rf_main', 'rf_side']
+# ['ffnn_manual', 'ffnn_keras', 'snn_keras', 'tnn_keras', 'xgb', 'rf_main', 'rf_side', 'all']
 type:           'rf_side'
 # Path to data
 DataPath:       ['data/ASV_table_mod.csv','data/Metadata_table.tsv'] #'data/ASV_table_mod.csv'
